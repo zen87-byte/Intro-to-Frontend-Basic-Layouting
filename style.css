@@ -1,0 +1,164 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/042/308/670/large/chen-7.jpg?1634142766');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav{
+  padding: 16px auto;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: #F2BC58;
+}
+
+nav .logo img{
+  padding-top: 24px;
+  width: 30%;
+}
+nav .menu ul{
+  overflow: hidden;
+  list-style-type: none;
+}
+
+nav .menu ul li{
+  display:inline;
+  padding: 16px;
+}
+nav .menu ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  
+}
+nav .menu ul li a:hover{
+  border-radius: 8px;
+  background-color: #BA855D;
+}
+.wrapper #home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .wrapper #home .kolom{
+    width: 30%;   
+    margin-left: -60vw;
+  }
+  .wrapper #home .kolom .deskripsi{
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    padding: 20px;
+    color: white;
+  }
+  .wrapper #home .kolom .deskripsi h1{
+    font-size: xxx-large;
+    color: #BA855D;
+    text-shadow: -1px -1px 0 #F7CCAC, 1px -1px 0 #F7CCAC, -1px 1px 0 #F7CCAC, 1px 1px 0 #F7CCAC;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 5s steps(30, end) infinite,
+      blink-caret .5s step-end infinite;
+    }
+  /* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #BA855D }
+}
+  .wrapper #home .kolom .deskripsi .button{
+    background-color: #BA855D;
+    width: 28%;
+    padding: 8px;
+    border-radius: 16px;
+    color: black;
+    margin: 8px 0px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .wrapper #home .kolom .deskripsi .button:hover{
+    background-color: #F7CCAC;
+  }
+  .wrapper #home .kolom .deskripsi .button a{
+    text-decoration: none;
+    color: black;
+  }
+
+.wrapper #detail-menu{
+  height: 105vh;
+  background-color: #FFFCF7;
+}
+.wrapper #detail-menu .title{
+  padding: 90px 0px 16px 0px;
+  text-align: center;
+  font-size: xx-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapper #detail-menu .list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+}
+
+.wrapper #detail-menu .list .gambar img{
+  width: 170px;
+  height: 170px;
+}
+
+.wrapper #detail-menu .list .dish{
+  width: 20%;
+  margin: 20px 10px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+.wrapper #detail-menu .list .info{
+  margin: 16px 0px;
+  padding: 0px 16px ;
+}
+.wrapper #detail-menu .list .info h2{
+  margin: 16px 0px;
+  padding: 0px 16px ;
+}
+.wrapper #detail-menu .list .tombol{
+  margin: 8px auto;
+  background-color: #F2BC58;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+}
+.wrapper #detail-menu .list .tombol a{
+  text-decoration: none;
+  color: black;
+}
+.wrapper #detail-menu .list .tombol:hover{
+  background-color: #BA855D;
+}
